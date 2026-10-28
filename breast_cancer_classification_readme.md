@@ -1,17 +1,17 @@
-# 🩺 Breast Cancer Diagnosis Classification
+# Breast Cancer Diagnosis Classification
 
 > **Quick Summary:** A machine learning pipeline that classifies breast tumor samples as **malignant** or **benign** using digitized fine needle aspirate (FNA) cell features.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python
 * **Data Processing & Analytics:** Pandas, NumPy
 * **Machine Learning:** Scikit-learn (Support Vector Machines, Preprocessing, Evaluation)
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 The goal of this project is to build a reliable binary classifier to assist in diagnostic workflows by predicting tumor malignancy based on nuclear feature metrics extracted from digitized images.
 
 * **Dataset:** Wisconsin Diagnostic Breast Cancer (WDBC)
@@ -20,7 +20,7 @@ The goal of this project is to build a reliable binary classifier to assist in d
 
 ---
 
-## 📈 What Has Been Done So Far
+## What Has Been Done So Far
 
 ### 1. Exploratory Data Analysis (EDA) & Inspection
 * Inspected class balance (~63% benign vs. ~37% malignant).
@@ -39,7 +39,7 @@ The goal of this project is to build a reliable binary classifier to assist in d
 
 ---
 
-## 🚀 Future Directions & Next Steps (Literature-Informed)
+## Future Directions & Next Steps (Literature-Informed)
 
 Based on recent literature reviews and benchmarks in machine learning for medical imaging and oncology diagnosis:
 
@@ -60,10 +60,9 @@ Based on recent literature reviews and benchmarks in machine learning for medica
 
 ---
 
-## 💡 Key Interview Talking Points
+## Some Points
 * **Why feature scaling?** SVM relies on distance metrics to compute margins; standardizing data ensures all features contribute proportionally.
 * **Metrics that matter:** In medical diagnostics, minimizing false negatives (maximizing **Recall/Sensitivity**) is critical to avoid missing malignant cases.
 * **Simplicity & Interpretability:** Tabular feature models like SVM provide low computational complexity and easy interpretability compared to heavy black-box deep learning models.
 ```
 
-<FollowUp>Would you like me to adjust any specific section of this README, or assist in adding code snippets for any of the proposed future steps (such as hyperparameter tuning or SHAP integration)?</FollowUp>
